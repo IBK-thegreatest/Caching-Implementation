@@ -1,0 +1,23 @@
+{
+  "name": "caching-implementation",
+  "version": "1.0.0",
+  "description": "This is the implementation of a Caching mechanism when building API in order to reduce the load on the database.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.4",
+    "express": "^4.19.2",
+    "node-fetch": "^3.3.2",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
